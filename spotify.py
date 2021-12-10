@@ -18,11 +18,11 @@ genius = lyricsgenius.Genius('biZZReO7F98mji5oz3cE0FiIG73Hh07qoXSIzYSGNN3GBsnY-e
 if 'BOT_TOKEN' in os.environ:
     token = os.environ.get('BOT_TOKEN')
 else:
-    token = 'token bot'
+    token = '5080287435:AAE3RqA5ZKTmjiCcKhnNNXWq2nolY-bjkiE'
 if 'CHANNEL_CHAT_ID' in os.environ:
     channel_chat_id = os.environ.get('CHANNEL_CHAT_ID')
 else:
-    channel_chat_id = 'token bot'
+    channel_chat_id = 'mrkk68'
 bot = telepot.Bot(token)
 
 def DOWNLOADMP3(link,chat_id):
